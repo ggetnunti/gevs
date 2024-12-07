@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "161082148526",
+    "project_id": "gevs-b3ccf",
+    "storage_bucket": "gevs-b3ccf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161082148526:android:a3bf8049de7a09529f0f3f",
+        "android_client_info": {
+          "package_name": "uk.ac.le.cs.gevs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYrTcppuIsEi-1_M3eKxKBMOcZTuw8aBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

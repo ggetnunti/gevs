@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VoterDashboardActivity">
+
+    <LinearLayout
+        android:id="@+id/profileLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_layout" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#9337E8">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/imgViewProfile"
+                android:layout_centerInParent="true"
+                android:background="@drawable/election_commission"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtVoterFullName"
+                android:text="Election Commission"
+                android:layout_below="@id/imgViewProfile"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="#FFFFFF"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:elevation="10dp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnStartVoting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Voting"
+            android:textColor="#00FF00"
+            android:visibility="gone"
+            android:layout_below="@id/profileLayout"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"/>
+
+        <Button
+            android:id="@+id/btnStopVoting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop Voting"
+            android:textColor="#FF0000"
+            android:visibility="gone"
+            android:layout_below="@id/btnVoting"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

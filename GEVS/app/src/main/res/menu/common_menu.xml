@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/menu_home"/>
+
+    <item android:title="Candidate Result"
+        android:id="@+id/menu_result"/>
+
+    <item android:title="Overall Result"
+        android:id="@+id/menu_overallResult"/>
+
+    <item android:title="Logout"
+        android:id="@+id/menu_logout"/>
+</menu>
