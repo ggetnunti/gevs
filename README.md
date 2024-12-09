@@ -31,7 +31,7 @@ Integration between job seekers and providers in an easy way.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 🌌 Structure
+## 🌌 ASS
 
 For the organization of the application, it was separated into several folders so that they were distributed according
 to their functions.
