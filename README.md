@@ -1,6 +1,7 @@
+<div id="top"></div>
+
 <p align="center">
-  <h1 align="center">GEVS</h1>
-  <p align="center">Online Election Platform Mobile Application</p>
+  <img src="https://drive.google.com/uc?id=1omH_LiLWk6fV4voPmq8WLHfUsdMaU96q">
 </p>
 
 ## Mobile Application Overview
